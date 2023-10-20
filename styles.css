@@ -12,14 +12,14 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #413C58;
-    font-size: 3em;
+    font-size: 2rem;
     padding: 2%;
 
 }
 
 
 h2 {
-    font-size: 3em;
+    font-size: 1.7rem;
     text-align: center;
 
 }
@@ -41,11 +41,11 @@ nav a:hover {
 }
 
 p {
-    font-size:2.4em;
+    font-size:1.4rem;
 }
 .quote {
     font-family: "Lucida Handwriting", sans-serif;
-    font-size: 2.4em;
+    font-size: 1.5rem;
     text-align: center;
     margin-top: 30px;
 
@@ -78,7 +78,7 @@ footer {
     align-items: center;
     color: #BFD7B5;
     background-color: #413C58;
-    font-size: 3em;
+    font-size: 2em;
     position: absolute;
     bottom: 0;
     height: 3rem;
@@ -131,12 +131,12 @@ footer {
 }
 
 #intro-header {
-    font-size: 2.6em;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 #intro-text {
-    font-size: 2.2em;
+    font-size: 1.5em;
     text-wrap: normal;
 }
 
@@ -204,14 +204,14 @@ footer {
     margin-right: auto;
 }
 .form-container {
-    width: 30vw;
+    width: 70%;
     margin-top: 6rem;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 3px solid mintcream;
+    border: 3px solid lavender;
     padding: 2rem;
     background-color: #413C58;
     box-shadow: 10px 10px 20px #413C58;
@@ -228,11 +228,12 @@ form label, form input {
 
 
 form input[type="text"], form input[type="email"] {
-    border: 2px solid black;
+    border: 3px solid black;
     background-color: lavender;
     transition: border-color 3s ;
     color: lavender;
     font-size: 2rem;
+
 }
 
 form input[type="submit"] {
@@ -240,18 +241,20 @@ form input[type="submit"] {
     color: ;
     cursor: grab;
     transition: background-color 2s;
-    border-radius: 30px;
-    font-size: 2.3rem;
+    border-radius: 5%;
+    font-size: 1.4rem;
+    border: 3px solid black;
 }
 
 form input[type="submit"]:hover {
-    background-color: lavender;
-    font-size: 2.3rem;
+    background-color: lightseagreen;
+    font-size: 1.4rem;
     color: #413C58;
+    border: 3px solid black;
 }
 
 form > label {
-    font-size: 2.3rem;
+    font-size: 1.4rem;
     color: #BFD7B5;
 }
 
@@ -261,11 +264,11 @@ form > h2 {
 }
 
 form textarea {
-    border: 2px solid black;
+    border: 3px solid black;
     background-color: lavender;
     transition: border-color 3s;
     color: rebeccapurple;
-    font-size: 2rem;
+    font-size: 1.4rem;
     width: 80%;
     padding: 0.5rem;
 }
