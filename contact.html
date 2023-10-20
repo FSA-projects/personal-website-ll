@@ -19,30 +19,38 @@
         </ul>
       </div>
     </nav>
-    <section>
-      <img id="poker" src="./images/WSOP.jpg" alt="a picture of the world series of poker">
-    </section>
     <section class="content">
-      <p>In the realm of software engineering, I thrive on the challenges and innovations that come with the territory. Every line of code, every problem to be solved, fuels my passion and drive.
-        I pride myself on my adaptability and my continuous endeavor to stay updated with the latest in technology.</p>
-      <p>In the dynamic realm of software engineering, I find a world teeming with potential and challenges. With technology continually advancing, I've embraced the journey of adapting and learning.
-        Writing code, for me, is a blend of logic and creativity, each project a new puzzle awaiting a solution. While I've garnered valuable experiences in my ventures so far, I'm fully aware of the
-        vastness of the tech world and am committed to continuous learning to enhance my skills further.</p>
-      <p>When I'm not immersed in coding, card games, especially poker and spades, capture my interest. Poker has offered insights into strategy and decision-making, lessons I believe resonate even in the tech sphere.
-        Spades, meanwhile, has become more than just a game to me. Teaching it to diverse groups, from friends to those newly introduced, has been a journey in patience and clarity—attributes I carry into my professional life.</p>
+      <div class="form-container">
 
+      <form action="formsubmitted.html" method="post">
+        <h2>Contact</h2>
+        <label for="name"><strong>Name:</strong></label>
+        <input type="text" id="name" name="name">
+        <br />
+        <label for="email"><strong>Email:</strong></label>
+        <input type="email" id="email" name="email">
+        <br />
+        <label for="subject"><strong>Subject:</strong></label>
+        <input type="text" id="subject" name="subject">
+        <br />
+        <label for="message"><strong>Message:</strong></label>
+        <textarea id="message" name="message" rows="5"></textarea>
+        <br />
+        <input type="submit" value="Submit">
+      </form>
+      </div>
     </section>
-    <section class="connect">
-      <a href="https://linkedin.com" target="_blank">
-        <img id="linkedin" src="./images/linkedin-in.svg" alt="a picture of linkedin logo"/>
-      </a>
-      <a href="https://github.com" target="_blank">
-        <img id="github" src="images/github.svg" target="_blank" alt="a picture of github logo">
-      </a>
-    </section>
+
   </div>
-
-  <footer id="footer">
+  <section class="connect">
+    <a href="https://linkedin.com" target="_blank">
+      <img id="linkedin" src="./images/linkedin-in.svg" alt="a picture of linkedin logo"/>
+    </a>
+    <a href="https://github.com" target="_blank">
+      <img id="github" src="images/github.svg" target="_blank" alt="a picture of github logo">
+    </a>
+  </section>
+  <footer>
     Blake Geard. 2023.
   </footer>
 </div>
