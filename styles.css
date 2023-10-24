@@ -231,7 +231,7 @@ form input[type="text"], form input[type="email"] {
     border: 3px solid black;
     background-color: lavender;
     transition: border-color 3s ;
-    color: lavender;
+    color: #413C58;
     font-size: 2rem;
 
 }
