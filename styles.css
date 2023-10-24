@@ -227,11 +227,11 @@ form label, form input {
 }
 
 
-form input[type="text"], form input[type="email"] {
+form input[type="text"], form input[type="email"], form input [type="subject"]{
     border: 3px solid black;
     background-color: lavender;
     transition: border-color 3s ;
-    color: #413C58;
+    color: rebeccapurple;
     font-size: 2rem;
 
 }
